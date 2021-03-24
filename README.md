@@ -28,45 +28,61 @@
 </p>
 
 <p align="center">
-  <a href="#-about-the-project">About the project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-getting-started">Getting started</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-how-to-contribute">How to contribute</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-license">License</a>
+  <a href="#-about-the-project">Sobre o projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-technologies">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-getting-started">Começando</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-how-to-contribute">Como contribuir</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-license">Licença</a>
 </p>
 
-<img alt="Layout" src="https://res.cloudinary.com/eliasgcf/image/upload/v1586302738/assets/previewApp_fnt7hm.png">
+<!-- <img alt="Layout" src="https://res.cloudinary.com/eliasgcf/image/upload/v1586302738/assets/previewApp_fnt7hm.png"> -->
 
-## 👨🏻‍💻 About the project
+## 👨🏻‍💻 Sobre o projeto
 
-- <p style="color: red;">Brief explanation about the project</p>
+<p>
+	Implementação de alguns algoritmos de ordenação utilizando a linguagem de programação Javascript. O intuito desse projeto é apenas para fins educacionais, nenhum desses algoritmos estão otimizados ou revisados.
+</p>
 
-## 🚀 Technologies
+### Lista de algoritmos implementados ✔
+1. [] Smooth sort
+2. [] Interpolation sort
+3. [] Intro sort
+4. [] Merge sort
+5. [] Heap sort
+6. [] Quick sort
+7. [] Tim sort
+8. [] Counting sort
+9. [] Bucket/Bin sort
+10. [] Strand sort
+11. [] Radix sort
+12. [] Burst sort
 
-Technologies that I used to develop this project
+## 🚀 Tecnologias
+
+Tecnologias utilizadas para desenvolver o projeto
 
 - [Node.js](https://nodejs.org/en/)
 - [TypeScript](https://www.typescriptlang.org/)
 - 
-## 💻 Getting started
+## 💻 Começando
 
-### Requirements
+### requisitos
 
 - [Node.js](https://nodejs.org/en/)
 - [Typescript](https://www.typescriptlang.org/)
 - [Yarn](https://classic.yarnpkg.com/) or [npm](https://www.npmjs.com/)
 
-**Clone the project and access the folder**
+**Feche o projeto e acesso o arquivo**
 
 ```bash
 $ git clone https://github.com/pedrobbarbosa/Algorithms && cd Algorithms
 ```
 
-**Follow the steps below**
+**Siga os passos abaixo**
 
-## 🤔 How to contribute
+## 🤔 Como contribuir
 
-**Make a fork of this repository**
+**Faça um fork desse repositório**
 
 ```bash
 # Fork using GitHub official command line
@@ -75,7 +91,7 @@ $ git clone https://github.com/pedrobbarbosa/Algorithms && cd Algorithms
 $ gh repo fork pedrobbarbosa/Algorithms
 ```
 
-**Follow the steps below**
+**Siga os passos abaixo**
 
 ```bash
 # Clone your fork
