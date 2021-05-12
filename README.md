@@ -8,20 +8,12 @@
 </h3>
 
 <p align="center">
-  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/EliasGcf/readme-template">
+  <a href="https://www.linkedin.com/in/pedrobbarbosa/">
+    <img alt="Language" src="https://img.shields.io/badge/language%20-Typescript%20-blue">
+  </a>
 
-  <a href="https://www.linkedin.com/in/eliasgcf/">
+  <a href="https://www.linkedin.com/in/pedrobbarbosa/">
     <img alt="Made by" src="https://img.shields.io/badge/made%20by-Pedro%20Barbosa-gree">
-  </a>
-  
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/EliasGcf/readme-template">
-  
-  <a href="https://github.com/EliasGcf/readme-template/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/EliasGcf/readme-template">
-  </a>
-  
-  <a href="https://github.com/EliasGcf/readme-template/issues">
-    <img alt="Repository issues" src="https://img.shields.io/github/issues/EliasGcf/readme-template">
   </a>
   
   <img alt="GitHub" src="https://img.shields.io/github/license/EliasGcf/readme-template">
@@ -60,19 +52,18 @@
 ## 🚀 Tecnologias
 
 Tecnologias utilizadas para desenvolver o projeto
-
+- [Javascript](https://javascript.info/)
 - [Node.js](https://nodejs.org/en/)
 - [TypeScript](https://www.typescriptlang.org/)
-- 
 ## 💻 Começando
 
-### requisitos
+### Requisitos
 
 - [Node.js](https://nodejs.org/en/)
 - [Typescript](https://www.typescriptlang.org/)
 - [Yarn](https://classic.yarnpkg.com/) or [npm](https://www.npmjs.com/)
 
-**Feche o projeto e acesso o arquivo**
+**Baixe o projeto e acesso o arquivo**
 
 ```bash
 $ git clone https://github.com/pedrobbarbosa/Algorithms && cd Algorithms
@@ -95,7 +86,7 @@ $ gh repo fork pedrobbarbosa/Algorithms
 
 ```bash
 # Clone your fork
-$ git clone your-fork-url && cd NOME_DO_REPO
+$ git clone github.com/pedrobbarbosa/Algorithms && cd Algorithms
 
 # Create a branch with your feature
 $ git checkout -b my-feature
