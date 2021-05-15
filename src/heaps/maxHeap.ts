@@ -11,6 +11,12 @@ class maxHeap extends Heap {
       this.maxHeapify(this.nodes, index);
     }
   }
+  
+  public permutation(index: number, largestIndex: number): void {
+    const tmp = this.nodes[index]
+    this.nodes[index] = this.nodes[largestIndex]
+    this.nodes[largestIndex] = tmp;
+  }
 
   public maxHeapify(Array: number[], index: number): void {
     let largest: number = 0;
