@@ -13,6 +13,24 @@ class maxHeap extends Heap {
   }
 
   public maxHeapify(Array: number[], index: number): void {
+    let largest: number = 0;
+
+    if (this.getLeftAdjacentIndex(index) <= Array.length && 
+        Array[this.getLeftAdjacentIndex(index)] > Array[index]) {
+          largest = this.getLeftAdjacentIndex(index)
+        } else {
+          largest = index
+        }
+
+    if (this.getRightAdjacentIndex(index) <= Array.length &&
+        Array[this.getRightAdjacentIndex(index)] > Array[largest]) {
+          largest = this.getRightAdjacentIndex(index);
+        }
+    
+    if (largest != index) {
+      this.permutation(index, largest);
+      this.maxHeapify(Array, largest);
+    }
   }
 }
 
