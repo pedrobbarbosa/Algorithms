@@ -7,15 +7,15 @@ class maxHeap extends Heap {
   }
 
   public majorNodeProperty() {
-    for (let index = (this.nodes.length / 2) - 1; index >= 0; index--) {
+    for (let index = Math.floor((this.nodes.length / 2) - 1); index >= 0; index--) {
       this.maxHeapify(this.nodes, index);
     }
   }
   
-  public permutation(index: number, largestIndex: number): void {
+  public permutation(index: number, indexB: number): void {
     const tmp = this.nodes[index]
-    this.nodes[index] = this.nodes[largestIndex]
-    this.nodes[largestIndex] = tmp;
+    this.nodes[index] = this.nodes[indexB]
+    this.nodes[indexB] = tmp;
   }
 
   public maxHeapify(Array: number[], index: number): void {
@@ -37,6 +37,18 @@ class maxHeap extends Heap {
       this.permutation(index, largest);
       this.maxHeapify(Array, largest);
     }
+
+  }
+
+  public heapSort(): void {
+    const array: any[] = [];
+
+    for (let i = this.nodes.length - 1; i >= 0; i--) {
+      this.permutation(i, 0);
+      array.unshift(this.nodes.pop());
+      this.majorNodeProperty();
+    }
+    this.nodes = [...array];
   }
 }
 
