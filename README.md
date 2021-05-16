@@ -36,11 +36,11 @@
 </p>
 
 ### Lista de algoritmos implementados ✔
-1. [] Smooth sort
+1. [x] Heap sort
 2. [] Interpolation sort
 3. [] Intro sort
 4. [] Merge sort
-5. [] Heap sort
+5. [] Smooth sort
 6. [] Quick sort
 7. [] Tim sort
 8. [] Counting sort
