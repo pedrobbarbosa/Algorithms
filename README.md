@@ -4,7 +4,7 @@
 </h1>
 
 <h3 align="center">
-  I do see the beauty in the rules, the invisible code of chaos hiding behind the menacing face of order.
+  I do see the beauty in the rules, the invisible code of chaos hiding behind the menacing face of the order.
 </h3>
 
 <p align="center">
